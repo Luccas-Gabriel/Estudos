@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cores <abbv title="Vermelho (Red), Verde (Green) e Azul (Blue)">RGB</abbv></h1>
+    <p>RGB é a abreviatura de um sistema de cores aditivas em que o Vermelho (Red), o Verde (Green) e o Azul (Blue) são combinados de várias formas de modo a reproduzir um largo espectro cromático. O propósito principal do sistema RGB é a reprodução de cores em dispositivos eletrônicos como monitores de TV e computador, retroprojetores, scanners e câmeras digitais, assim como na fotografia tradicional</p>
+    <picture title="Representação de cores RGB">
+        <source media="(max-width: 600px)" srcset="imagens/Cores_rgb-300.png">
+        <source media="(max-width: 750px)" srcset="imagens/Cores_rgb-500.png">
+        <source media="(max-width: 1000px)" srcset="imagens/Cores_rgb-700.png">
+        <img src="imagens/Cores_rgb-full.png" alt="Representação das cores RGB" style="background-color: rgb(254, 255, 204);">
+    </picture>
+    <h2>Funcionamento</h2>
+    <p>Modelos aditivos cromáticos são combinados de várias maneiras para reproduzir outras cores. O nome deste modelo e a abreviação RGB vêm das três cores primárias aditivas: vermelho, verde e azul (Red, Green, e Blue, em inglês), e só foi possível devido ao desenvolvimento tecnológico de tubos de raios catódicos – com os quais foi possível fazer o display de cores ao invés de uma fosforescência.</p>
+    <p>Estas três cores não devem ser confundidas com os pigmentos primários Ciano, Magenta e Amarelo, conhecidos no mundo das artes como “cores primárias”, já que se combinam baseadas na reflexão e absorção de fótons visto que o RGB depende da emissão de fótons de um componente excitado a um estado de energia mais elevado (fonte emissora, por exemplo, o tubo de raios catódicos).</p>
+    <p>O modelo de cores RGB, por si só, não define o que significa “vermelho”, “verde” ou “azul” (espectroscopicamente), e então os resultados de misturá-los não são tão exatos (e sim relativos, na média da percepção do olho humano).</p>
+    <h2>Representação por nome</h2>
+    <p>As cores em HTML5/CSS3 podem ser representadas nos códigos através de seus nomes.</p>
+    <p>Veja a segui:</p>
+    <p><code>&lt;h2 style="background-color: blue; color white; text-align: center;"&gt;Representação por nomes&lt;/h2&gt;</code></p>
+    <h2 style="background-color: blue; color: white; text-align: center; font-family: 'Times New Roman', Times, serif;">Representação por nome</h2> <!-- Representando as cores rgb usando seus nomes em inglês-->
+    <h2>Representação Hexadecimal</h2>
+    <!-- Hexadecimal 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F-->
+    <p>Outra maneira de representar as cores em seu site é através dos códigos hexadecimais que vão de 0 a 9 seguigos pelas letras de A a F. Onde 00 representa a menor intensidade e FF a maior intensidade de RRGGBB.</p>
+    <p>Veja a seguir:</p>
+    <p><code>&lt;h2 style="background-color: #0000ff; color #ffffff; text-align: center;"&gt;Representação Hexadecimal&lt;/h2&gt;</code></p>
+    <h2 style="background-color: #0000ff; color: #ffffff; text-align: center; font-family: 'Times New Roman', Times, serif;">Representação Hexadecimal</h2>
+    <h2>Representação RGB</h2>
+    <p>Ainda há outra auternativa de representar as cores do designer de um site, através diretamente do rgb.</p>
+    <p>Veja a seguir:</p>
+    <p><code>&lt;h2 style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255); text-align: center;"&gt;Representação Hexadecimal&lt;/h2&gt;</code></p>
+    <h2 style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255); font-family: 'Times New Roman', Times, serif; text-align: center;">Representação RGB</h2>
+    <h2 >Representação <abbv title="Hue (tom), Saturation (saturação) e Lightness (luminosidade)">HSL</abbv></h2>
+    <p>E por último, mas não menos importante podemos apresentar a cores em código HTML5 E CSS3 do seu siter utilizando a codificação SHL.</p>
+    <p>Veja a seguir:</p>
+    <p><code>&lt;h2 style="background-color: shl(240, 100%, 50%); color: shl(0, 0%, 100%); text-align: center;"&gt;Representação Hexadecimal&lt;/h2&gt;</code></p>
+    <h2 style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%); text-align: center; font-family: 'Times New Roman', Times, serif;">Representação SHL</h2>
+</body>
+</html>
