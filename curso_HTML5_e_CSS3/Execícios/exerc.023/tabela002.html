@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            border: 1px solid black;
+            color: rgb(0, 0, 66);
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+            border-right: 1px solid black;
+        }
+
+
+        /* Classes */
+
+        .lp {
+            background-color: lightblue;
+        }
+
+        .position {
+            width: 70px;
+            text-align: center;
+        }
+       
+       .estado {
+            width: 120px;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+        .porcent {
+            width: 90px;
+            text-align: center;
+        }
+
+        /* final das classes */
+
+
+
+        th {
+            /* border: 1px solid black; */
+            padding: 10px;
+            border-right: 1px solid black;
+        }
+
+        td {
+            /* border: 1px solid black; */
+            padding: 10px;
+            border-right: 1px solid black;
+        }
+
+        tfoot {
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+
+    </style>
+
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+
+
+    <table>
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th class="estado">Unidade Federativa</th>
+                    <th>População</th>
+                    <th class="porcent">% da População</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="lp">
+                    <td class="position">1</td>
+                    <td class="estado">São Paulo</td>
+                    <td class="num">45.919.049</td>
+                    <td class="porcent">21,9%</td>
+                    
+                </tr>
+                <tr>
+                    <td class="position">2</td>
+                    <td class="estado">Minas Gerais</td>
+                    <td class="num">21.169.791</td>
+                    <td class="porcent">10,1%</td>
+                    
+                </tr>
+                <tr class="lp">
+                    <td class="position">3</td>
+                    <td class="estado">Rio de Janeiro</td>
+                    <td class="num">17.264.943</td>
+                    <td class="porcent">8,2%</td>
+                    
+                </tr>
+                <tr>
+                    <td class="position">4</td>
+                    <td class="estado">Bahia</td>
+                    <td class="num">14.873.064</td>
+                    <td class="porcent">7,1%</td>
+                </tr>
+                <tr class="lp">
+                    <td class="position">5</td>
+                    <td class="estado">Paraná</td>
+                    <td class="num">11.433.957</td>
+                    <td class="porcent">5,4%</td>
+                </tr>
+                <tr>
+                    <td class="position">6</td>
+                    <td class="estado">Rio Grande Do Sul</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>                  
+                </tr>
+                <tr class="lp">
+                    <td class="position">7</td>
+                    <td class="estado">Pernambuco</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr>
+                    <td class="position">8</td>
+                    <td class="estado">Ceará</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr class="lp">
+                    <td class="position">9</td>
+                    <td class="estado">Pará</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="position">10</td>
+                    <td class="estado">Santa Catarina</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr class="lp">
+                    <td class="position">11</td>
+                    <td class="estado">Maranhão</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr>
+                    <td class="position">12</td>
+                    <td class="estado">Goiás</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr class="lp">
+                    <td class="position">13</td>
+                    <td class="estado">Amazonas</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr>
+                    <td class="position">14</td>
+                    <td class="estado">Espírito Santo</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr class="lp">
+                    <td class="position">15</td>
+                    <td class="estado">Paraíba</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr>
+                    <td class="position">16</td>
+                    <td class="estado">Rio Grande do Norte</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr class="lp">
+                    <td class="position">17</td>
+                    <td class="estado">Mato Grosso</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr>
+                    <td class="position">18</td>
+                    <td class="estado">Alagoas</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr class="lp">
+                    <td class="position">19</td>
+                    <td class="estado">Piauí</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr>
+                    <td class="position">20</td>
+                    <td class="estado">Distrito Federal</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr class="lp">
+                    <td class="position">21</td>
+                    <td class="estado">Mato Grosso do Sul</td>
+                    <td class="num"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="position">22</td>
+                    <td class="estado">Sergipe</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr class="lp">
+                    <td class="position">23</td>
+                    <td class="estado">Rondônia</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr>
+                    <td class="position">24</td>
+                    <td class="estado">Tocantins</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr class="lp">
+                    <td class="position">25</td>
+                    <td class="estado">Acre</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr>
+                    <td class="position">26</td>
+                    <td class="estado">Amapá</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+                <tr class="lp">
+                    <td class="position">27</td>
+                    <td class="estado">Roraima</td>
+                    <td class="num"></td>
+                    <td class="porcent"></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th class="position">Total de Habitantes</th>
+                    <td class="estado">x</td>
+                    <td class="num">210.147.125</td>
+                    <td class="porcent">100%</td>
+                </tr>
+            </tfoot>
+    </table>
+</body>
+</html>
